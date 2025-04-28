@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: cyan;
+}
+
+figcaption{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.clube {
+    margin: auto;
+    display: block;
+}
+
+.fadas{
+    margin: auto;
+    display: block;
+    font-weight: 3300px;
+    height: 350px;
+}
+div{
+    border: 3px solid rgb(221, 221, 0);
+}
+
+Summary{
+    color: rgb(182, 2, 128);
+}
+
+ul{
+    list-style-position: inside;
+}
+
