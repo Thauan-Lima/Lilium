@@ -11,8 +11,10 @@ public class Q7
 		
 		if (pesoPeixe > 50) {
 		    multa = (pesoPeixe - 50)*4;
-		    System.out.println("Peso excedente. Multa: " + multa);
-		}
+		    System.out.println("\u001b[34mPeso excedente. Multa: " + multa + "\u001b[0m");
+		} else {
+            System.out.println("\u001b[31mSeja feliz com seus peixes. <3\u001b[0m");
+        }
 		read.close();
 	}
 }
