@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Lanchonete {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner read = new Scanner(System.in);
 
         double total = 0.0;
         int codigo, quantidade;
@@ -20,14 +20,14 @@ public class Lanchonete {
 
         while (true) {
             System.out.print("Digite o código do produto: ");
-            codigo = scanner.nextInt();
+            codigo = read.nextInt();
 
             if (codigo == 0) {
                 break; // encerra o pedido
             }
 
             System.out.print("Digite a quantidade: ");
-            quantidade = scanner.nextInt();
+            quantidade = read.nextInt();
 
             double preco = 0;
 
@@ -60,6 +60,6 @@ public class Lanchonete {
 
         System.out.printf("\nValor total do pedido: R$ %.2f%n", total);
 
-        scanner.close();
+        read.close();
     }
 }
