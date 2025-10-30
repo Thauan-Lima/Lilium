@@ -18,7 +18,7 @@ public class Q5 {
         c = n3*n3*n3;
         System.out.println("\u001b[35mO produto do dobro do primeiro com metade do segundo é: " + a);
         System.out.println("\u001b[35mA soma do triplo do primeiro com o terceiro é: " + b);
-        System.out.println("\u001b[35mO terceiro elevado ao cubo é: " + c + "\u001b[0m");
+        System.out.printf("\u001b[35mO terceiro elevado ao cubo é: %f\u001b[0m", c);
         read.close();
     }
 }
