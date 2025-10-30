@@ -16,10 +16,10 @@ public class Q8 {
         double INSS = (salarioBruto * 8)/100;
         double sindicato = (salarioBruto * 5)/100;
         double salarioLiq = salarioBruto - (impostoRenda + INSS + sindicato);
-        System.out.println("\u001B[35mSalário Bruto: " + salarioBruto);
-        System.out.println("\u001B[35mQuanto pagou ao INSS: " + INSS);
-        System.out.println("\u001B[35mQuanto pagou ao sindicato: " + sindicato);
-        System.out.println("\u001B[35mO salário líquido: " + salarioLiq + "\u001b[0m");
+        System.out.println("\u001B[35mSalário Bruto: R$ " + salarioBruto);
+        System.out.println("\u001B[35mQuanto pagou ao INSS: R$ " + INSS);
+        System.out.println("\u001B[35mQuanto pagou ao sindicato: R$" + sindicato);
+        System.out.printf("\u001B[35mO salário líquido: R$ %.2f\u001b[0m", salarioLiq);
         read.close();
     }
 }
