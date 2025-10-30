@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Q7
-{
+public class Q7 {
 	public static void main(String[] args) {
 	    Scanner read = new Scanner(System.in);
 	    int pesoPeixe, multa;
@@ -11,7 +10,7 @@ public class Q7
 		
 		if (pesoPeixe > 50) {
 		    multa = (pesoPeixe - 50)*4;
-		    System.out.println("\u001b[34mPeso excedente. Multa: " + multa + "\u001b[0m");
+		    System.out.printf("\u001b[34mPeso excedente.%nMulta: %d\u001b[0m", multa);
 		} else {
             System.out.println("\u001b[31mSeja feliz com seus peixes. <3\u001b[0m");
         }
