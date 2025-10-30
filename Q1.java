@@ -16,11 +16,11 @@ public class Q1 {
 
         int media = (n1 + n2 + n3 + n4) / 4;
         if (media >= 60 && media <= 100) {
-            System.out.println("\u001b[35mMédia: " + media + ". Aprovado.");
+            System.out.printf("\u001b[35mMédia: %d%nAprovado.", media);
         } else if (media < 60 && media >= 40) {
-            System.out.println("\u001b[35mMédia: " +media + ". Prova final.");
+            System.out.printf("\u001b[35mMédia: %d%nProva final.", media);
         } else if (media < 40) {
-            System.out.println("\u001b[35mMédia: " + media + ". Reprovado.");
+            System.out.printf("\u001b[35mMédia: %d%nReprovado.", media);
         } else {
             System.out.println("Inválido.\u001b[0m");
         }
