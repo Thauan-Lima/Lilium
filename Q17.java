@@ -23,7 +23,7 @@ public class Lanchonete {
             codigo = read.nextInt();
 
             if (codigo == 0) {
-                break; // encerra o pedido
+                break;
             }
 
             System.out.print("Digite a quantidade: ");
@@ -52,7 +52,7 @@ public class Lanchonete {
                     break;
                 default:
                     System.out.println("Código inválido! Tente novamente.");
-                    continue; // volta ao início do loop
+                    continue;
             }
 
             total += preco * quantidade;
