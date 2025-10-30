@@ -9,7 +9,7 @@ public class Q15 {
         double salario;
         char sexo, estadoCivil;
 
-        System.out.println("\u001b[1m\u001b[35mFaça tudo certinho, por favor!")
+        System.out.println("\u001b[1m\u001b[35mFaça tudo certinho, por favor!");
         do {
             System.out.print("Digite o nome (mais de 3 caracteres): ");
             nome = read.nextLine();
