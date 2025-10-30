@@ -12,7 +12,7 @@ public class Q2 {
         double area = Math.PI*raio*raio;
 
         System.out.println("\u001B[31mDiâmetro: "+ diam);
-        System.out.println("\u001B[32mÁrea: "+ area);
+        System.out.println("\u001B[32mÁrea: %d\u001b[0m", area);
         read.close();
     }
 }
